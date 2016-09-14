@@ -1,0 +1,124 @@
+.page_tital h1.title{ background:none; color:#c51426; padding:0; text-align:left; font-weight:bold; letter-spacing:7px;}
+.page_tital{padding-bottom:30px; padding-top:35px; padding-left:15px; padding-right:15px;}
+#be_volunteer{ margin:5px 10px 0 0; float:left;}
+
+/*// pages background*/
+/*.back_partner{ padding-bottom:30px; 
+				background: url('../../images/contact_bg.jpg') no-repeat right top fixed ;
+				background-size:cover;}
+.back_events{ padding-bottom:30px; 
+				background: url('../../images/EVENT_BG.jpg') no-repeat right top fixed ;
+				background-size:cover;}	
+.back_about{ padding-bottom:30px; 
+				background: url('../../images/About_BG.jpg') no-repeat right top;
+				background-size:cover;}
+.back_projects{ padding-bottom:30px; 
+				background: url('../../images/Projects_BG.jpg') no-repeat right top fixed ;
+				background-size:cover;}
+.back_contact{ padding-bottom:30px; 
+				background: url('../../images/contact_bg.jpg') no-repeat right top fixed ;
+				background-size:cover;}
+.back_donation{ padding-bottom:30px; 
+				background: url('../../images/Donations.jpg') no-repeat right top fixed ;
+				background-size:contain;}
+.back_terms_policies{ padding-bottom:30px; 
+				background: url('../../images/contact_bg.jpg') no-repeat right top fixed ;
+				background-size:cover;}
+.back_projects_detail{ padding-bottom:30px; 
+				background: url('../../images/ProjectDetails-BG.jpg') no-repeat right top fixed ;
+				background-size:cover;}				
+.home_back{ padding-bottom:30px; 
+				background: url('../../images/HOME_BG.jpg') no-repeat right top ;
+				background-size:cover;}
+.back_event_detail{ padding-bottom:30px; 
+				background: url('../../images/whats-on_detail_bg.jpg') no-repeat right top fixed ;
+				background-size:cover;}	
+.creativity_back{ padding-bottom:30px; 
+				background: url('../../images/pillar-stripe-1.jpg') no-repeat right top  ;
+				background-size:cover;}	
+.wellbeing_back{ padding-bottom:30px; 
+				background: url('../../images/pillar-stripe-2.jpg') no-repeat right top  ;
+				background-size:cover;}					
+.leadership_back{ padding-bottom:30px; 
+				background: url('../../images/pillar-stripe-3.jpg') no-repeat right top  ;
+				background-size:cover;}	
+.diversity_back{ padding-bottom:30px; 
+				background: url('../../images/pillar-stripe-4.jpg') no-repeat right top  ;
+				background-size:cover;}		
+											*/
+											
+.back_partner{ padding-bottom:30px; 
+				background: url('../../images/contact_bg.jpg') no-repeat right top fixed ;
+				background-size:cover;}
+.back_events{ padding-bottom:30px; 
+				background: url('../../images/contact_bg.jpg') no-repeat right top  fixed;
+				background-size:cover;}	
+.back_about{ padding-bottom:30px; 
+				background: url('../../images/contact_bg.jpg') no-repeat right top  fixed;
+				background-size:cover;}
+.back_projects{padding-bottom:30px; 
+				background: url('../../images/contact_bg.jpg') no-repeat right top fixed ;
+				background-size:cover;}
+.back_contact{ padding-bottom:30px; 
+				background: url('../../images/contact_bg.jpg') no-repeat right top fixed ;
+				background-size:cover;}
+.back_donation{ padding-bottom:30px; 
+				background: url('../../images/contact_bg.jpg') no-repeat right top  fixed ;
+				background-size:cover;}
+.back_terms_policies{ padding-bottom:30px; 
+				background: url('../../images/contact_bg.jpg') no-repeat right top fixed ;
+				background-size:cover;}
+.back_projects_detail{padding-bottom:30px; 
+				background: url('../../images/contact_bg.jpg') no-repeat right top  fixed;
+				background-size:cover;}				
+.home_back{ padding-bottom:30px; 
+				background: url('../../images/HOME_BG.jpg') no-repeat right top  fixed;
+				background-size:cover;}
+.back_event_detail{ padding-bottom:30px; 
+				background: url('../../images/contact_bg.jpg') no-repeat right top  fixed;
+				background-size:cover;}	
+.creativity_back{ padding-bottom:30px; 
+				background: url('../../images/contact_bg.jpg') no-repeat right top  fixed;
+				background-size:cover;}	
+.wellbeing_back{ padding-bottom:30px; 
+				background: url('../../images/contact_bg.jpg') no-repeat right top fixed ;
+				background-size:cover;}					
+.leadership_back{padding-bottom:30px; 
+				background: url('../../images/contact_bg.jpg') no-repeat right top  fixed;
+				background-size:cover;}	
+.diversity_back{ padding-bottom:30px; 
+				background: url('../../images/contact_bg.jpg') no-repeat right top  fixed;
+				background-size:cover;}		
+																						
+								
+								
+								
+/*about main*/		
+.about_main h2{ color:#c60d1f;}						
+.action_msg{text-align: center;}		
+
+.comming_soon{ width:100%; float:left;}
+.comming_soon img,.about .about_boxOuter img,.logo_welcom img{ max-width:100%;}
+.about .about_boxOuter{ width:100%; float:left; position:relative;}
+.about .about_boxOuter .about_pic{ width:46%; float:left;}
+.about .about_boxOuter .about_inner_tital{ width:52%; float:left; position:absolute; bottom:85px; right:0;}
+.logo_welcom{ width:100%; text-align:center; float:left;}
+@media screen and (max-width:767px){
+.about .about_boxOuter .about_inner_tital{ bottom:0;}
+	}
+.shadow-clone{ border:none; background:none; box-shadow:none!important;}	
+
+
+
+.partners_box .front, .partners_box .back,.partners_box .flip-container{ height:200px!important;}
+
+body, p,label, textarea{ color:#000!important;}
+
+.product_detail .pro_detail .event_location{ padding:0;}
+.product_detail .pro_detail .event_location i{ font-size:22px; padding-right:5px;}
+.certificate_lab{ padding-left:5px;}
+.project-list .box_list1 .back2.overlay{ cursor:pointer;}
+
+@media screen and (max-width:639px){
+#bphf-bottom{ display: none; }
+}

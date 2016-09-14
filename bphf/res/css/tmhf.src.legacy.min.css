@@ -1,0 +1,10 @@
+#tmx-header svg,#tmx-footer svg{display:none!important}
+#tmx-network .tmx-tmedia a,#tmx-network .tmx-menu-mobile .tmx-webmail,#tmx-network .tmx-menu-mobile .tmx-webtab,#tmx-network .tmx-menu-mobile .tmx-search,#tmx-network .tmx-menu-mobile .tmx-account,#tmx-search-input-h,#tmx-search-input-f,#tmx-footer .tmx-tmedia{background-image:url('../img/tmhf.sprite.png');background-repeat:no-repeat}
+#tmx-network .tmx-tmedia a{display:block;margin:11px 0 7px 0;width:86px;height:23px;background-position:-170px -4px}
+#tmx-network .tmx-menu-mobile .tmx-webtab{background-position:-137px 0}
+#tmx-network .tmx-menu-mobile .tmx-webmail{background-position:-80px 0}
+#tmx-network .tmx-menu-mobile .tmx-search{background-position:-108px 0}
+#tmx-network .tmx-menu-mobile .tmx-account{background-position:4px 0}
+#tmx-search-input-h,#tmx-search-input-f{background-position:-338px 5px}
+#tmx-search-input-h.tmx-active,#tmx-search-input-f.tmx-active{background-image:none}
+#tmx-footer .tmx-tmedia{display:block;margin:4px auto;width:81px;height:8px;background-position:-258px 5px}

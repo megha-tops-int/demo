@@ -1,0 +1,65 @@
+@font-face{font-family:"gravur";src:url("../fonts/gravur.eot");src:url("../fonts/gravur.eot#iefix") format("embedded-opentype"),url("../fonts/gravur.woff") format("woff"),url("../fonts/gravur.ttf") format("truetype"),url("../fonts/gravur.svg#gravur") format("svg");font-weight:normal;font-style:normal}
+#tmx-global{display:block;height:41px;width:100%;background:#575757;background:-moz-linear-gradient(top,#575757 47%,#575757 47%,#3d3d3d 100%);background:-webkit-gradient(linear,left top,left bottom,color-stop(47%,#575757),color-stop(47%,#575757),color-stop(100%,#3d3d3d));background:-webkit-linear-gradient(top,#575757 47%,#575757 47%,#3d3d3d 100%);background:-o-linear-gradient(top,#575757 47%,#575757 47%,#3d3d3d 100%);background:-ms-linear-gradient(top,#575757 47%,#575757 47%,#3d3d3d 100%);background:linear-gradient(to bottom,#575757 47%,#575757 47%,#3d3d3d 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#575757',endColorstr='#3d3d3d',GradientType=0)}
+#tmx-global .tmx-wrap{height:auto;width:100%;max-width:988px;margin:0 auto}
+#tmx-global .tmx-left{float:left;width:60%}
+#tmx-global .tmx-right{float:right;width:40%}
+#tmx-global .tmx-menu{margin:0;padding:0}
+#tmx-global .tmx-menu .tmx-item{margin:0;padding:0 12px;border-right:1px solid #3d3d3d;list-style-type:none;display:block;float:left;position:relative;-webkit-transition:background-color .2s;-moz-transition:background-color .2s;transition:background-color .2s}
+#tmx-global .tmx-menu .tmx-item:hover{background-color:#3b3b3b}
+#tmx-global .tmx-menu.tmx-right .tmx-item{float:right}
+#tmx-global .tmx-menu .tmx-item:after{content:" ";border-right:1px solid #5e5e5e;position:absolute;top:0;right:0;bottom:0}
+#tmx-global .tmx-menu a{color:#FFF;text-decoration:none;line-height:39px;display:block}
+#tmx-network{height:39px}
+#tmx-network .tmx-wrap{height:auto;width:100%;max-width:988px;margin:0 auto}
+#tmx-network .tmx-left{float:left}
+#tmx-network .tmx-right{float:right}
+#tmx-network .tmx-search{display:block;top:0;right:95px;padding:0;width:160px;height:39px;line-height:25px}
+#tmx-search-h.tmx-active{background-color:transparent}
+#tmx-search-form-h .tmx-default{font-size:11px;width:200px;height:24px;top:7px}
+#tmx-search-form-h .tmx-default .tmx-i-search{height:16px;vertical-align:middle;width:32px}
+#tmx-search-form-h .tmx-default .tmx-i-google{height:18px;vertical-align:middle;width:63px}
+#tmx-search-form-h .tmx-input{background-image:url('../img/tmhf.sprite.png');background-repeat:no-repeat;width:190px;font-size:12px;height:20px;padding-left:10px;border:0;background-position:-338px -2px}
+#tmx-search-form-h .tmx-input.tmx-active{background-image:none}
+#tmx-narrow,#tmx-menu-aside-mobile{display:none}
+#tmx-wide{display:block}
+#tmx-wide .tmx-menu{margin:0;padding:0;width:85%;float:left}
+#tmx-wide .tmx-menu .tmx-item{margin:0;padding:0 12px;list-style-type:none;display:block;float:left;border-right:1px solid #52bdf2;-webkit-transition:background-color .2s;-moz-transition:background-color .2s;transition:background-color .2s}
+#tmx-wide .tmx-menu .tmx-item:first-child{border-left:1px solid #52bdf2}
+#tmx-wide .tmx-menu .tmx-item:last-child{border-right:0}
+#tmx-wide .tmx-menu .tmx-item:hover{background-color:#3bcaff}
+#tmx-wide .tmx-menu a{color:#FFF;text-decoration:none;line-height:39px;display:block;font-size:1.1em;font-family:gravur,sans-serif;text-transform:uppercase}
+#tmx-wide .tmx-menu-aside{float:right;width:27%;color:#414141;opacity:0;padding:15px;background:#fff;position:absolute;top:-9999px}
+#tmx-wide .tmx-menu-aside.tmx-active{position:relative;top:0}
+#tmx-wide .tmx-menu-aside img{width:100%;display:block}
+#tmx-wide .tmx-menu-list{margin:0;list-style-type:none;text-align:left}
+#tmx-wide .tmx-menu-list.tmx-right .tmx-item{border-bottom:1px solid #dfdfdf;padding:4px 0;width:100%;float:left}
+#tmx-wide .tmx-menu-list.tmx-left .tmx-item{width:18.8%;float:left;margin-right:8px;text-align:center}
+#tmx-wide .tmx-menu-list.tmx-left .tmx-item:last-child{margin-right:0}
+#tmx-wide .tmx-menu-list.tmx-left .tmx-item img{border:1px solid #efefef}
+#tmx-wide .tmx-menu-list .tmx-item a{color:#414141;text-decoration:none;font-size:13px}
+#tmx-network .tmx-tmedia{margin:0 15px 0 0}
+.tmx-tmedia a{background-image:url('../img/tmhf.sprite.png');background-repeat:no-repeat;display:block;margin:9px 0 7px 0;width:84px;height:23px;background-position:-172px -4px}
+.tmx-account{background-image:url('../img/tmhf.sprite.png');background-repeat:no-repeat;display:block;margin-left:0;margin-right:8px;padding:9px 0 7px 0;width:40px;height:40px;background-position:-2px 0}
+.tmx-webmail{background-image:url('../img/tmhf.sprite.png');background-repeat:no-repeat;display:block;margin-left:0;margin-right:8px;padding:9px 0 7px 0;width:40px;height:40px;background-position:-86px 0}
+#tmx-global .tmx-account{width:22px;height:39px;margin:0}
+#tmx-global .tmx-webmail{width:22px;height:39px;margin:0}
+.tmx-trigger span{display:none!important}
+.tmx-trigger{display:none}
+.tmx-trigger.tmx-active{background-position:-50px 5px}
+#tmx-footer{font-family:Arial,Helvetica,sans-serif;font-size:16px;padding:14px;box-sizing:border-box;background-color:#FFF;width:100%;margin:0 auto;border-top:4px solid #DDD;clear:both}
+#tmx-footer .tmx-menu{margin:0;padding:0;text-align:center;vertical-align:middle;padding:0 10px}
+#tmx-footer .tmx-menu .tmx-item{margin:0;list-style-type:none;display:block}
+#tmx-footer .tmx-menu.tmx-left a{padding:7px 0}
+#tmx-footer .tmx-tmedia{padding:14px 0}
+.tmedia-text,.tmedia-t{fill:#004ba0}
+.tmedia-circle{fill:#00afed}
+#tmx-footer .tmx-menu.tmx-left a{display:block;text-decoration:none;color:#4b4b4b;border-bottom:1px solid #dcdcdc}
+#tmx-promo{height:350px;width:100%}
+#tmx-footer{font-size:13px;line-height:28px;text-align:center}
+#tmx-footer .tmx-tmedia a{background-image:url('../img/tmhf.sprite.png');background-repeat:no-repeat;display:block;margin:9px 0 7px 0;width:84px;height:23px;background-position:-202px -4px}
+#tmx-footer .tmx-wrap{display:inline-block;width:100%;text-align:center}
+#tmx-footer .tmx-menu.tmx-left,#tmx-footer .tmx-menu.tmx-right{display:inline-block}
+#tmx-footer .tmx-menu .tmx-item{display:inline-block}
+#tmx-footer .tmx-menu.tmx-left a{display:inline-block;text-decoration:none;color:#4b4b4b;border-bottom:0 none;border-right:1px solid #dcdcdc;padding:0 10px}
+#tmx-promo{width:988px}
+.tmx-visible-xs{display:none!important}
